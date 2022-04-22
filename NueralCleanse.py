@@ -13,7 +13,6 @@ style.use('fivethirtyeight')
 
 class NeuralCleanse():
     def __init__(self, X, Y, model, num_samples):
-        super(NeuralCleanse, self).__init__()
         self.X = X
         self.Y = Y
         self.num_classes = int(np.max(Y)+1)
